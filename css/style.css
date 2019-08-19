@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700");
+
+body {
+  line-height: 1.2;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+}
+
+h1, .h1 {
+  font-size: 80px;
+}
+
+
+h2, .h2 {
+  font-size: 60px;
+}
+
+
+h3, .h3 {
+  font-size: 40px;
+}
+
+h4, .h4 {
+  font-size: 16px;
+}
+
+h6, .h6 {
+  font-size: 18px;
+}
+
+.navigation {
+  padding: 40px 130px;
+}
+
+.navigation.nav-bg {
+  background-color: #41228e;
+  padding: 15px 100px;
+}
+
+.navbar .nav-item .nav-link {
+  font-family: "BwNistaInt-xBd";
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.navbar .nav-item.active {
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.hero-area {
+  padding: 300px 0 200px;
+  position: relative;
+  background-image: url(../images/background.jpg);
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.hero-area h1 {
+  position: relative;
+  z-index: 2;
+}
+
+.layer {
+  position: absolute;
+  z-index: 1;
+}
+
+.layer-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.align {
+    position: fixed;
+    background: transparent;
+    float: right;
+    height: 250px;
+}
